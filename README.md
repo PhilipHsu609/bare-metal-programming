@@ -10,3 +10,19 @@ I'm using the NUCLEO-F446RE STM32F446RE Mbed board with the following resources 
 - [ST-LINK](https://github.com/stlink-org/stlink)
 - [libopencm3](https://libopencm3.org/)
 
+## Series
+
+### 1. Hello World Blinky!
+
+- Set up the development environment
+  - ST-LINK
+    - Flash the board with `st-flash`
+      - `st-flash write $(BINARY).bin 0x8000000`
+      - `st-flash reset`
+    - Debugging with `st-util`
+  - libopencm3
+- `rcc`
+  - Reset and clock control
+- `gpio`
+  - General-purpose input/output
+  - Pull-up and pull-down resistors
