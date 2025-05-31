@@ -1,0 +1,24 @@
+*~
+*.o
+*.d
+*.bin
+*.elf
+*.hex
+*.srec
+*.list
+*.map
+*.stylecheck
+generated.*.ld
+.gdb_history
+.DS_Store
+
+# Project files from idea/netbeans/eclipse
+nbproject/
+.idea/
+.project
+/.vscode/
+
+node_modules/
+
+.cache/
+compile_commands.json
