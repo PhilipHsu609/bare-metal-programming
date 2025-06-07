@@ -11,6 +11,7 @@ I'm using the NUCLEO-F446RE STM32F446RE Mbed board with the following resources 
 - [NUCLEO-F446RE User Manual](https://www.st.com/resource/en/user_manual/um1724-stm32-nucleo64-boards-mb1136-stmicroelectronics.pdf)
 - [ST-LINK](https://github.com/stlink-org/stlink)
 - [libopencm3](https://libopencm3.org/)
+- [簡單入門 LibOpenCM3 STM32 嵌入式系統開發](https://ithelp.ithome.com.tw/users/20151756/ironman/5382)
 
 ## Series
 
@@ -52,3 +53,15 @@ I'm using the NUCLEO-F446RE STM32F446RE Mbed board with the following resources 
     - Nested Vectored Interrupt Controller
     - Interrupt table
     - Interrupt handlers
+
+### 3. PWM and Timers
+
+- PWM;
+  - Pulse Width Modulation
+  - Auto reload register (ARR) controls the period
+  - Capture/Compare register (CCR) controls the duty cycle (the ratio of on time to off time)
+    - duty cycle = (CCR / ARR) * 100%
+- Timers
+  - General-purpose timers
+  - Advanced-control timers
+  - Basic timers
